@@ -13,10 +13,7 @@ public class Main {
 
         System.out.println("W杯グループEチーム数");
         System.out.println(groupE.size());
-        System.out.println(groupE.get(0));
-        System.out.println(groupE.get(1));
-        System.out.println(groupE.get(2));
-        System.out.println(groupE.get(3));
+        groupE.forEach(System.out::println);
 
         int index = 5;
         try {
