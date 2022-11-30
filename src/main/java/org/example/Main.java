@@ -24,5 +24,8 @@ public class Main {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(("グループEではありません。"));
         }
+
+        List<String> sortedResult = groupE.stream().sorted().toList();
+        System.out.println(groupE);
     }
 }
